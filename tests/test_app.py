@@ -42,4 +42,4 @@ class TestApp(unittest.TestCase):
             method="POST",
         )
         with urllib.request.urlopen(req) as response:
-            self.assertEqual(response.status, 200)
+            self.assertEqual(response.status, 201)
